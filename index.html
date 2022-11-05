@@ -6,68 +6,114 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Fylo landing page with two column layout</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="myscript.js"></script>
 </head>
 <body>
+ <header>
+   <img id="mainLogo" src="https://raw.githubusercontent.com/neuyann/fylo-landing-page-with-two-column-layout-master/3d9cabe3f01bc68668d504265eedf4666d65a6ae/images/logo.svg" alt="logo">
+  <nav>
+    <a href="#">Features</a>
+    <a href="#">Team</a>
+    <a href="#">Sign In</a>
+   </nav>
+  </header>
+  <div  class="firstContainer">
+    <div class="leftFirstContainer">
+      <h1>All your files in one secure location, accessible anywhere.</h1>
 
-  Features
-  Team
-  Sign In
-
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores your most important files in one secure location. 
+  <p>Fylo stores your most important files in one secure location. 
   Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
+    family, and co-workers.</p>
+      <form>
+      <input id="emailInput1"                        type="email"                            placeholder="Enter your email...">
+      <input id="getStarted1" type="button" value="Get Started">
+        <p class="notValid hidden pleaseCheck">Please check your email</p>
+      </form>
+    </div>
+    <div class="rightFirstContainer"><img id="illu1" src="https://raw.githubusercontent.com/neuyann/fylo-landing-page-with-two-column-layout-master/3d9cabe3f01bc68668d504265eedf4666d65a6ae/images/illustration-1.svg" alt=""></div>
+  </div>
+  
+  <main>
+    <img id="curveImg" src="https://raw.githubusercontent.com/neuyann/fylo-landing-page-with-two-column-layout-master/3d9cabe3f01bc68668d504265eedf4666d65a6ae/images/bg-curve-desktop.svg">
+    <div class="secondContainer">
+      <div class="secondLeftContainer">
+    <h2>Stay productive, wherever you are</h2>
 
-  Get Started
+  <p>Never let location be an issue when accessing your files. Fylo has you 
+  covered for all of your file storage needs.<p/>
 
-  Stay productive, wherever you are
+  <p>Securely share files and folders with friends, family and colleagues for 
+    live collaboration. No email attachments required!</p>
 
-  Never let location be an issue when accessing your files. Fylo has you 
-  covered for all of your file storage needs.
+      <a href="">See how Fylo works<img id="arrow"src="https://raw.githubusercontent.com/neuyann/fylo-landing-page-with-two-column-layout-master/3d9cabe3f01bc68668d504265eedf4666d65a6ae/images/icon-arrow.svg" alt="arrow.png"></a>
 
-  Securely share files and folders with friends, family and colleagues for 
-  live collaboration. No email attachments required!
+  <div class="experience">
+    <img src="https://raw.githubusercontent.com/neuyann/fylo-landing-page-with-two-column-layout-master/3d9cabe3f01bc68668d504265eedf4666d65a6ae/images/icon-quotes.svg">
+    <p>Fylo has improved our team productivity by an order of magnitude. Since 
+    making the switch our team has become a well-oiled collaboration machine.     </p>
+    <div class="Kyle">
+     <img id="imgKyle" src="https://github.com/neuyann/fylo-landing-page-with-two-column-layout-master/blob/main/images/avatar-testimonial.jpg?raw=true" alt="iconKyle">
+    <h3>Kyle Burton</h3>
+    <p>Founder & CEO, Huddle</p>
+    </div> 
+    </div>
+      </div>
+      <div><img id="illu2" src="https://raw.githubusercontent.com/neuyann/fylo-landing-page-with-two-column-layout-master/3d9cabe3f01bc68668d504265eedf4666d65a6ae/images/illustration-2.svg"></div>
+    </div>
+  </main>
+  
+  <div class="getAccess">
+    <div class="left">
+    <h2>Get early access today</h2>
 
-  See how Fylo works
-
-  Fylo has improved our team productivity by an order of magnitude. Since 
-  making the switch our team has become a well-oiled collaboration machine.
-
-  Kyle Burton
-  Founder & CEO, Huddle
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. 
-  If you have any questions, our support team would be happy to help you.
-
-  Get Started For Free
-
-  Phone: +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+  <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+    If you have any questions, our support team would be happy to help you.</p></div>
+    <div class="right">
+      <form>
+          <input id="emailInput2"                                                              placeholder="email@example.com"          
+                 type="email">
+        
+         <p class="notValid2 hidden2 pleaseCheck">Please check your email</p>
+        
+         <input id="getStarted2" 
+                type="button" 
+                value="Get Started For Free">
+       
+      </form>
+    </div>
+    </div>
+<footer>
+  <div class="infos">
+  <img src="https://raw.githubusercontent.com/neuyann/fylo-landing-page-with-two-column-layout-master/3d9cabe3f01bc68668d504265eedf4666d65a6ae/images/logo.svg" alt="logo">
+  
+  <p><img class="phoneAndMail" src="https://raw.githubusercontent.com/neuyann/fylo-landing-page-with-two-column-layout-master/3d9cabe3f01bc68668d504265eedf4666d65a6ae/images/icon-phone.svg" alt="logophone">Phone: +1-543-123-4567</p>
+  <p><img class="phoneAndMail" src="https://raw.githubusercontent.com/neuyann/fylo-landing-page-with-two-column-layout-master/3d9cabe3f01bc68668d504265eedf4666d65a6ae/images/icon-email.svg" alt="emaillogo">example@fylo.com</p>
+  </div>
+  
+  <div class="aboutUs">
+    <a href="#">About Us</a>
+    <a href="#">Jobs</a>
+    <a href="#">Press</a>
+    <a href="#">Blog</a>
+  </div>
+  
+  <div class="contactUs">
+    <a href="#">Contact Us</a>
+    <a href="#">Terms</a>
+    <a href="#">Privacy</a>
+  </div>
+  
+   <div class="logos">
+     <a href="https://facebook.com"><img class="logoImg" src="https://raw.githubusercontent.com/neuyann/huddle-landing-page-with-alternating-feature-blocks-master/edeca8f9352cefd5958902f1922aea1b058b4694/images/facebook-brands.svg" alt="fbicon"></a>
+    <a href="https://twitter.com"><img class="logoImg" src="https://raw.githubusercontent.com/neuyann/huddle-landing-page-with-alternating-feature-blocks-master/edeca8f9352cefd5958902f1922aea1b058b4694/images/twitter-brands.svg" alt="twittericon"></a>
+        <a href="https://instagram.com"><img class="logoImg" src="https://raw.githubusercontent.com/neuyann/huddle-landing-page-with-alternating-feature-blocks-master/edeca8f9352cefd5958902f1922aea1b058b4694/images/instagram-brands.svg" alt="instaicon"></a>
+  </div>
+  
   </footer>
+  <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Neuyann</a>.
+    </p>
 </body>
 </html>
